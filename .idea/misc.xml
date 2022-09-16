@@ -3,20 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/addplaylistbutton.xml" value="0.26615384615384613" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/circle_dg.xml" value="0.2546875" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/circle_lg.xml" value="0.2546875" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/circle_or.xml" value="0.2546875" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/circlew_dg.xml" value="0.2546875" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/comment.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/descriptionplaylist.xml" value="0.26615384615384613" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/edit_text.xml" value="0.2703125" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/edittext2.xml" value="0.26615384615384613" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/gender.xml" value="0.2703125" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/ic_baseline_hearing_24.xml" value="0.2546875" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.2703125" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/ic_baseline_queue_music_24.xml" value="0.2546875" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/likedit.xml" value="0.26615384615384613" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/musify_circle.xml" value="0.2703125" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/other_logins.xml" value="0.2546875" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/signup_buttton.xml" value="0.2703125" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/songplayrectangle.xml" value="0.2546875" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/uploadplaylist.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/layout/activity_add_playlist.xml" value="0.2175925925925926" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/layout/activity_other_login_options.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/layout/activity_play_list_artist2.xml" value="0.23425925925925925" />

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmdAss1">
         <activity
+            android:name=".AddPlaylist"
+            android:exported="true" />
+        <activity
             android:name=".songComments"
             android:exported="true" />
         <activity
