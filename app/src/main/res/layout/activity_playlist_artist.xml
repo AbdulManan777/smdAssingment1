@@ -109,7 +109,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.3"
+            android:layout_weight="1.5"
             android:text="Playlist 1"
             android:textColor="#e0af1f"
             android:textSize="22sp"
@@ -124,7 +124,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.3"
+            android:layout_weight="1.5"
             android:text="Playlist 2"
             android:textColor="#e0af1f"
             android:textSize="22sp"
@@ -139,7 +139,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.3"
+            android:layout_weight="1.5"
             android:text="Playlist 3"
             android:textColor="#e0af1f"
             android:textSize="22sp"

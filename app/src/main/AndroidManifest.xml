@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmdAss1">
         <activity
+            android:name=".songComments"
+            android:exported="true" />
+        <activity
             android:name=".playListArtistActivity2"
             android:exported="true" />
         <activity
@@ -23,7 +26,7 @@
         </activity>
         <activity
             android:name=".otherLoginOptionsActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SignInActivity"
             android:exported="true" />
