@@ -10,25 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmdAss1">
         <activity
-            android:name=".otherLoginOptionsActivity"
-            android:exported="true" >
-
+            android:name=".playListArtistActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".playlistArtistActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
+        <activity
+            android:name=".otherLoginOptionsActivity"
+            android:exported="true"></activity>
         <activity
             android:name=".SignInActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".signUpActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
