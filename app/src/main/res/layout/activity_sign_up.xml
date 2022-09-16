@@ -8,12 +8,23 @@
     android:orientation="vertical"
     tools:context=".signUpActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginStart="300dp"
+        android:textColor="@color/white"/>
+
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/musify_circle"
         android:src="@drawable/ic_baseline_queue_music_24"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:layout_marginStart="20dp"/>
 
     <TextView
@@ -26,36 +37,39 @@
         android:layout_marginStart="18dp"
         android:textColor="@color/white"/>
     <EditText
-        android:layout_width="220dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
         android:background="@drawable/edit_text"
         android:hint="Name"
         android:text="Name"
-        android:textColor="#ffdead"
+        android:textColor="#E19525"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="15dp"/>
+        />
 
     <EditText
-        android:layout_width="220dp"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text"
         android:hint="Email"
         android:text="Email"
-        android:textColor="#ffdead"
+        android:textColor="#E19525"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="15dp"/>
+       />
 
     <EditText
-        android:layout_width="220dp"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text"
         android:hint="Password"
         android:text="Show"
         android:textAlignment="textEnd"
 
-        android:textColor="#ffdead"
+        android:textColor="#E19525"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="15dp"/>
+       />
 
     <TextView
         android:layout_width="wrap_content"
@@ -126,7 +140,7 @@
 
         <CheckBox
             android:layout_width="wrap_content"
-            android:background="@color/white"
+
             android:layout_height="wrap_content"/>
 
         <TextView
@@ -140,13 +154,15 @@
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="350dp"
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
         android:textStyle="bold"
-        android:backgroundTint="#ffff00"
+        android:textColor="@color/white"
+        android:background="@drawable/signup_buttton"
         android:text="Sign Up"/>
 
 
