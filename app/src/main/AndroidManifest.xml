@@ -11,10 +11,8 @@
         android:theme="@style/Theme.SmdAss1">
         <activity
             android:name=".recordingMusicWithProgressBar"
-            android:exported="true" />
-        <activity
-            android:name=".recordingMusicWithTimerActivity"
-            android:exported="true">
+            android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,8 +20,13 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".recordingMusicWithTimerActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".RecordingMusicActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".RecordMusicActivity"
             android:exported="true" />
