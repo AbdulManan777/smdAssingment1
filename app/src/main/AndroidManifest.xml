@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmdAss1">
         <activity
-            android:name="com.abdulmanan.i190500.RecordMusicActivity"
+            android:name=".RecordingMusicActivity"
             android:exported="true" >
 
             <intent-filter>
@@ -20,36 +20,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.abdulmanan.i190500.uploadMusicActivity"
-            android:exported="true" >
-
-
-        </activity>
-        <activity
-            android:name="com.abdulmanan.i190500.AddPlaylist"
+            android:name=".RecordMusicActivity"
             android:exported="true">
 
         </activity>
         <activity
-            android:name="com.abdulmanan.i190500.songComments"
+            android:name=".uploadMusicActivity"
             android:exported="true" />
         <activity
-            android:name="com.abdulmanan.i190500.playListArtistActivity2"
+            android:name=".AddPlaylist"
             android:exported="true" />
         <activity
-            android:name="com.abdulmanan.i190500.playlistArtistActivity"
+            android:name=".songComments"
             android:exported="true" />
         <activity
-            android:name="com.abdulmanan.i190500.otherLoginOptionsActivity"
+            android:name=".playListArtistActivity2"
             android:exported="true" />
         <activity
-            android:name="com.abdulmanan.i190500.SignInActivity"
+            android:name=".playlistArtistActivity"
             android:exported="true" />
         <activity
-            android:name="com.abdulmanan.i190500.signUpActivity"
+            android:name=".otherLoginOptionsActivity"
             android:exported="true" />
         <activity
-            android:name="com.abdulmanan.i190500.MainActivity"
+            android:name=".SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".signUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true" />
     </application>
 
