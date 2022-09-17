@@ -10,8 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmdAss1">
         <activity
-            android:name=".AddPlaylist"
+            android:name=".RecordMusicActivity"
             android:exported="true" />
+        <activity
+            android:name=".uploadMusicActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddPlaylist"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".songComments"
             android:exported="true" />
@@ -20,13 +32,7 @@
             android:exported="true" />
         <activity
             android:name=".playlistArtistActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".otherLoginOptionsActivity"
             android:exported="true" />
