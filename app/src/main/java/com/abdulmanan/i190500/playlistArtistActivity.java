@@ -1,14 +1,14 @@
-package com.example.smdass1;
+package com.abdulmanan.i190500;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class otherLoginOptionsActivity extends AppCompatActivity {
+public class playlistArtistActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_other_login_options);
+        setContentView(R.layout.activity_playlist_artist);
     }
 }

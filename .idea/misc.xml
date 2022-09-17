@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/drawable/addplaylistbutton.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_add_playlist.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_other_login_options.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_play_list_artist2.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_playlist_artist.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_record_music.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_song_comments.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_upload_music.xml" value="0.2" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/addplaylistbutton.xml" value="0.26615384615384613" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/circle_dg.xml" value="0.2546875" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/smdAss1/app/src/main/res/drawable/circle_lg.xml" value="0.2546875" />

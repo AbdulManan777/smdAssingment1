@@ -1,14 +1,14 @@
-package com.example.smdass1;
+package com.abdulmanan.i190500;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class RecordMusicActivity extends AppCompatActivity {
+public class songComments extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_record_music);
+        setContentView(R.layout.activity_song_comments);
     }
 }

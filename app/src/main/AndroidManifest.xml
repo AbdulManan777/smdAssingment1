@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smdass1">
+    package="com.abdulmanan.i190500">
 
     <application
         android:allowBackup="true"
@@ -10,14 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmdAss1">
         <activity
-            android:name=".RecordMusicActivity"
-            android:exported="true" />
-        <activity
-            android:name=".uploadMusicActivity"
-            android:exported="true" />
-        <activity
-            android:name=".AddPlaylist"
-            android:exported="true">
+            android:name="com.abdulmanan.i190500.RecordMusicActivity"
+            android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,25 +20,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".songComments"
+            android:name="com.abdulmanan.i190500.uploadMusicActivity"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name="com.abdulmanan.i190500.AddPlaylist"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.abdulmanan.i190500.songComments"
             android:exported="true" />
         <activity
-            android:name=".playListArtistActivity2"
+            android:name="com.abdulmanan.i190500.playListArtistActivity2"
             android:exported="true" />
         <activity
-            android:name=".playlistArtistActivity"
+            android:name="com.abdulmanan.i190500.playlistArtistActivity"
             android:exported="true" />
         <activity
-            android:name=".otherLoginOptionsActivity"
+            android:name="com.abdulmanan.i190500.otherLoginOptionsActivity"
             android:exported="true" />
         <activity
-            android:name=".SignInActivity"
+            android:name="com.abdulmanan.i190500.SignInActivity"
             android:exported="true" />
         <activity
-            android:name=".signUpActivity"
+            android:name="com.abdulmanan.i190500.signUpActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.abdulmanan.i190500.MainActivity"
             android:exported="true" />
     </application>
 
