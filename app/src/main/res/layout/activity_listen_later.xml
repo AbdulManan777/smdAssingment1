@@ -149,7 +149,7 @@
             android:layout_weight="0.8"
             android:text="3:01"
             android:textColor="#EAE9E5"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="55dp"
             android:textSize="20sp"/>
 
 
@@ -235,7 +235,7 @@
             android:layout_weight="0.8"
             android:text="0:24"
             android:textColor="#EAE9E5"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="55dp"
             android:textSize="20sp"/>
 
 
