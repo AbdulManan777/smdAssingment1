@@ -20,8 +20,8 @@
 
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/musify_circle"
         android:src="@drawable/ic_baseline_queue_music_24"
         android:layout_marginTop="40dp"
@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:background="@drawable/edit_text"
+        android:background="@drawable/edittext2"
         android:hint="Name"
         android:text="Name"
         android:textColor="#E19525"
@@ -51,25 +51,42 @@
         android:layout_width="match_parent"
         android:layout_margin="15dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/edit_text"
+        android:background="@drawable/edittext2"
         android:hint="Email"
         android:text="Email"
         android:textColor="#E19525"
         android:layout_marginTop="20dp"
        />
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
     <EditText
+        android:id="@+id/passSignup"
         android:layout_width="match_parent"
         android:layout_margin="15dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/edit_text"
+        android:background="@drawable/edittext2"
         android:hint="Password"
-        android:text="Show"
-        android:textAlignment="textEnd"
+        android:text="Password"
 
         android:textColor="#E19525"
         android:layout_marginTop="20dp"
        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/passSignup"
+        android:layout_alignBottom="@+id/passSignup"
+        android:layout_marginStart="310dp"/>
+
+    </RelativeLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,20 +96,20 @@
         android:textStyle="bold"
         android:textSize="25sp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="15dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:weightSum="5"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:layout_marginStart="80dp"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
             android:src="@drawable/male"
             android:background="@drawable/gender"/>
 
@@ -100,24 +117,24 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="0.5"/>
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
             android:src="@drawable/girl"
             android:background="@drawable/gender"/>
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="0.5"/>
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
             android:src="@drawable/prefer"
             android:background="@drawable/gender"/>
 
@@ -135,7 +152,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="5dp"
         android:layout_marginStart="15dp">
 
         <CheckBox
@@ -161,6 +178,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:textStyle="bold"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:background="@drawable/signup_buttton"
         android:text="Sign Up"/>

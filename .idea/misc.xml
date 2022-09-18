@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/drawable/addplaylistbutton.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/drawable/bigcircle.xml" value="0.1" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/drawable/circle_lg.xml" value="0.1" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/drawable/descriptionplaylist.xml" value="0.23148148148148148" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/drawable/drawable_units_tab_selector.xml" value="0.23148148148148148" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/drawable/radio_checked_buttons.xml" value="0.1" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/drawable/selectplaylist.xml" value="0.2490740740740741" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/drawable/uploadplaylist.xml" value="0.2490740740740741" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_add_playlist.xml" value="0.2" />
+        <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_drawer_menu.xml" value="0.1" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_edit_profile.xml" value="0.152" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_liked_music.xml" value="0.10925925925925926" />
         <entry key="..\:/Users/shahzaib laptop/AndroidStudioProjects/i190500/app/src/main/res/layout/activity_liked_song.xml" value="0.10925925925925926" />
