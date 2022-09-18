@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmdAss1">
         <activity
-            android:name=".ListenLaterActivity"
-            android:exported="true" >
-
+            android:name=".LikedMusicActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LikedSongActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,10 +22,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ListenLaterActivity"
+            android:exported="true"></activity>
+        <activity
             android:name=".recentSearchesActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".songTitlePlayingActivity"
             android:exported="true" />

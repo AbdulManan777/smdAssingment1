@@ -6,26 +6,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/black"
-    tools:context=".ListenLaterActivity">
+    tools:context=".LikedSongActivity">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
 
         >
-    <ImageView
-        android:padding="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/back"
-        android:layout_centerVertical="true"/>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_centerVertical="true"/>
 
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Listen Later"
+            android:text="Liked"
             android:layout_centerHorizontal="true"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -41,10 +42,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2 Options / Right Selected"
+        android:text="2 Options / Left Selected"
         android:textSize="15sp"
         android:textColor="#706D6D"
         android:layout_margin="20dp"/>
+
+
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -54,37 +57,39 @@
         android:background="@drawable/radio_group_tab"
         >
 
-        <RadioButton
-            android:layout_width="0dp"
-            android:layout_height="35dp"
-            android:layout_weight="1"
-            android:background="@drawable/drawable_units_tab_selector"
-            android:checked="false"
-            android:gravity="center"
-            android:text="Playlist"
-            android:textColor="@drawable/radio_checked_buttons"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:button="@null"/>
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawable_units_tab_selector"
+        android:checked="true"
+        android:gravity="center"
+        android:text="Playlist"
+        android:textColor="@drawable/radio_checked_buttons"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:button="@null"/>
 
-        <RadioButton
-            android:layout_width="0dp"
-            android:layout_height="35dp"
-            android:layout_weight="1"
-            android:background="@drawable/drawable_units_tab_selector"
-            android:checked="true"
-            android:gravity="center"
-            android:text="Music"
-            android:textColor="@drawable/radio_checked_buttons"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:button="@null"/>
-
-
-
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawable_units_tab_selector"
+        android:checked="false"
+        android:gravity="center"
+        android:text="Music"
+        android:textColor="@drawable/radio_checked_buttons"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:button="@null"/>
 
     </RadioGroup>
 
+
+
+
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -98,7 +103,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:src="@drawable/musicimage2"/>
+            android:src="@drawable/playlist1"/>
 
         <View
             android:layout_width="0dp"
@@ -117,7 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="Song Name"
+                android:text="Playlist 1"
                 android:textColor="@color/white"
                 android:textSize="20sp"/>
 
@@ -141,15 +146,15 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.6"/>
+            android:layout_weight="0.2"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.8"
-            android:text="3:01"
+            android:layout_weight="1.7"
+            android:text="Tracks: 8"
             android:textColor="#EAE9E5"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="55dp"
             android:textSize="20sp"/>
 
 
@@ -171,6 +176,8 @@
 
 
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -184,7 +191,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:src="@drawable/musicimage2"/>
+            android:src="@drawable/playlist1"/>
 
         <View
             android:layout_width="0dp"
@@ -203,7 +210,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:text="Song Name"
+                android:text="Playlist 2"
                 android:textColor="@color/white"
                 android:textSize="20sp"/>
 
@@ -227,15 +234,15 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.6"/>
+            android:layout_weight="0.2"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.8"
-            android:text="0:24"
+            android:layout_weight="1.7"
+            android:text="Tracks: 3"
             android:textColor="#EAE9E5"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="55dp"
             android:textSize="20sp"/>
 
 
@@ -253,6 +260,7 @@
 
 
     </LinearLayout>
+
 
 
 
@@ -268,6 +276,11 @@
         app:itemIconTint="#e0af1f"
         app:itemTextColor="@color/white"
         app:menu="@menu/navigationmenu"/>
+
+
+
+
+
 
 
 
