@@ -11,7 +11,7 @@
         android:theme="@style/Theme.SmdAss1">
         <activity
             android:name=".drawerMenuActivity"
-            android:exported="true" >
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,9 +22,7 @@
         </activity>
         <activity
             android:name=".editProfileActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".viewProfileActivity"
             android:exported="true" />
@@ -75,32 +73,22 @@
             android:exported="true" />
         <activity
             android:name=".playlistArtistActivity"
-            android:exported="true" />
+            android:exported="true" >
+
+
+        </activity>
         <activity
             android:name=".otherLoginOptionsActivity"
-            android:exported="true" >
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".SignInActivity"
-            android:exported="true" >
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".signUpActivity"
-            android:exported="true" >
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
-
-
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
